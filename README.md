@@ -1,4 +1,4 @@
-# ShopHub — Bootstrap 5 Ecommerce Landing Page 🛍️
+# StyleShop — Bootstrap 5 Ecommerce Landing Page 🛍️
 
 A clean, responsive ecommerce landing page built with **Bootstrap 5** and a small amount of custom CSS/JS. This repository contains a demo storefront UI (hero, categories, featured products, newsletter, testimonials, and a demo cart interaction).
 
