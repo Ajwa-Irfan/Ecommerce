@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StyleShop - Premium Ecommerce Store</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/bootstrap-custom.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <i class="bi bi-shop me-2"></i>StyleShop
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#categories">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Why Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <a href="#account" class="btn btn-outline-primary me-2">
+                        <i class="bi bi-person"></i> Account
+                    </a>
+                    <a href="#cart" class="btn btn-primary position-relative">
+                        <i class="bi bi-cart3"></i> Cart
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-accent">3</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">Summer Sale Up to 50% Off</h1>
+                    <p class="lead mb-4">Discover premium fashion and electronics at unbeatable prices. Limited time offer on selected items.</p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="#products" class="btn btn-primary btn-lg">Shop Now</a>
+                        <a href="#categories" class="btn btn-outline-light btn-lg">Browse Categories</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <div class="mt-4 mt-lg-0">
+                        <i class="bi bi-tag-fill hero-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-4 bg-light">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md-3 col-6">
+                    <div class="stat-item">
+                        <h3 class="fw-bold text-primary">10K+</h3>
+                        <p class="mb-0">Happy Customers</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-item">
+                        <h3 class="fw-bold text-primary">5K+</h3>
+                        <p class="mb-0">Products</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-item">
+                        <h3 class="fw-bold text-primary">24/7</h3>
+                        <p class="mb-0">Support</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-item">
+                        <h3 class="fw-bold text-primary">50+</h3>
+                        <p class="mb-0">Brands</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="products" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Featured Products</h2>
+            <div class="row g-4">
+                <!-- Product 1 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card product-card">
+                        <span class="badge-sale">SALE</span>
+                        <img src="https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top product-img" alt="Smart Watch">
+                        <div class="card-body">
+                            <h5 class="card-title">Smart Watch Pro</h5>
+                            <p class="card-text">Advanced smartwatch with health monitoring and GPS tracking.</p>
+                            <div class="rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                                <span class="ms-2 text-muted">(4.5)</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="discount">$299.99</span>
+                                    <span class="price">$249.99</span>
+                                </div>
+                                <a href="#cart" class="btn btn-primary btn-sm">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card product-card">
+                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top product-img" alt="Wireless Headphones">
+                        <div class="card-body">
+                            <h5 class="card-title">Wireless Headphones</h5>
+                            <p class="card-text">Premium noise-cancelling headphones with 30-hour battery life.</p>
+                            <div class="rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                                <span class="ms-2 text-muted">(4.0)</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$179.99</span>
+                                <a href="#cart" class="btn btn-primary btn-sm">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card product-card">
+                        <span class="badge-sale">NEW</span>
+                        <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top product-img" alt="Fitness Tracker">
+                        <div class="card-body">
+                            <h5 class="card-title">Fitness Tracker Band</h5>
+                            <p class="card-text">Water-resistant fitness tracker with heart rate monitor and sleep tracking.</p>
+                            <div class="rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <span class="ms-2 text-muted">(5.0)</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$89.99</span>
+                                <a href="#cart" class="btn btn-primary btn-sm">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card product-card">
+                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img-top product-img" alt="Running Shoes">
+                        <div class="card-body">
+                            <h5 class="card-title">Premium Running Shoes</h5>
+                            <p class="card-text">Lightweight running shoes with superior cushioning and support.</p>
+                            <div class="rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                                <span class="ms-2 text-muted">(4.5)</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <span class="discount">$129.99</span>
+                                    <span class="price">$99.99</span>
+                                </div>
+                                <a href="#cart" class="btn btn-primary btn-sm">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5">
+                <a href="#all-products" class="btn btn-outline-primary btn-lg px-5">View All Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section id="categories" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title">Shop by Category</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <a href="#category-men" class="category-card category-men">
+                        <div class="category-content">
+                            <h3>Men's Fashion</h3>
+                            <p class="mb-0">Shop Now <i class="bi bi-arrow-right"></i></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="#category-women" class="category-card category-women">
+                        <div class="category-content">
+                            <h3>Women's Fashion</h3>
+                            <p class="mb-0">Shop Now <i class="bi bi-arrow-right"></i></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="#category-electronics" class="category-card category-electronics">
+                        <div class="category-content">
+                            <h3>Electronics</h3>
+                            <p class="mb-0">Shop Now <i class="bi bi-arrow-right"></i></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <a href="#category-home" class="category-card category-home">
+                        <div class="category-content">
+                            <h3>Home & Living</h3>
+                            <p class="mb-0">Shop Now <i class="bi bi-arrow-right"></i></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offer Banner -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h2 class="display-5 fw-bold mb-3">Limited Time Offer</h2>
+                    <p class="lead mb-4">Get 30% off on all electronics. Use code: <strong>ELECTRO30</strong> at checkout.</p>
+                    <div class="d-flex align-items-center">
+                        <div class="me-4 text-center">
+                            <div class="offer-timer bg-dark rounded-circle p-3 mb-2">
+                                <span class="h3 fw-bold mb-0">05</span>
+                            </div>
+                            <small>Days</small>
+                        </div>
+                        <div class="me-4 text-center">
+                            <div class="offer-timer bg-dark rounded-circle p-3 mb-2">
+                                <span class="h3 fw-bold mb-0">12</span>
+                            </div>
+                            <small>Hours</small>
+                        </div>
+                        <div class="me-4 text-center">
+                            <div class="offer-timer bg-dark rounded-circle p-3 mb-2">
+                                <span class="h3 fw-bold mb-0">45</span>
+                            </div>
+                            <small>Minutes</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="mt-4 mt-lg-0">
+                        <i class="bi bi-gift-fill display-1 opacity-75"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Why Choose StyleShop</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="bi bi-truck"></i>
+                        </div>
+                        <h4>Free Shipping</h4>
+                        <p class="mb-0">Free delivery on orders over $50. Fast and reliable shipping worldwide.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="bi bi-arrow-counterclockwise"></i>
+                        </div>
+                        <h4>Easy Returns</h4>
+                        <p class="mb-0">30-day return policy. No questions asked returns for all products.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="bi bi-shield-check"></i>
+                        </div>
+                        <h4>Secure Payment</h4>
+                        <p class="mb-0">Your payment information is protected with 256-bit SSL encryption.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="bi bi-headset"></i>
+                        </div>
+                        <h4>24/7 Support</h4>
+                        <p class="mb-0">Round-the-clock customer support via chat, email, and phone.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="testimonial-card p-4 bg-white rounded shadow-sm">
+                        <div class="rating mb-3">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="mb-4">"Excellent quality products and fast delivery. My go-to online store for all my needs!"</p>
+                        <div class="d-flex align-items-center">
+                            <div class="rounded-circle bg-primary p-3 me-3">
+                                <i class="bi bi-person-fill text-white"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-0">Sarah Johnson</h6>
+                                <small class="text-muted">Verified Customer</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card p-4 bg-white rounded shadow-sm">
+                        <div class="rating mb-3">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                        </div>
+                        <p class="mb-4">"Great prices and amazing customer service. Will definitely shop here again!"</p>
+                        <div class="d-flex align-items-center">
+                            <div class="rounded-circle bg-primary p-3 me-3">
+                                <i class="bi bi-person-fill text-white"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-0">Michael Chen</h6>
+                                <small class="text-muted">Verified Customer</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card p-4 bg-white rounded shadow-sm">
+                        <div class="rating mb-3">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="mb-4">"The product selection is fantastic and the website is so easy to navigate."</p>
+                        <div class="d-flex align-items-center">
+                            <div class="rounded-circle bg-primary p-3 me-3">
+                                <i class="bi bi-person-fill text-white"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-0">Emily Rodriguez</h6>
+                                <small class="text-muted">Verified Customer</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="mb-3">Stay Updated</h2>
+                    <p class="mb-4">Subscribe to our newsletter and get 10% off your first order!</p>
+                    <form action="#" method="POST" class="newsletter-form">
+                        <div class="row g-2 justify-content-center">
+                            <div class="col-md-8">
+                                <div class="input-group">
+                                    <input type="email" class="form-control form-control-lg" placeholder="Enter your email address" required>
+                                    <button class="btn btn-accent btn-lg" type="submit">Subscribe</button>
+                                </div>
+                            </div>
+                        </div>
+                        <small class="text-light opacity-75 mt-3 d-block">We respect your privacy. Unsubscribe at any time.</small>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h4 class="mb-3">
+                        <i class="bi bi-shop me-2"></i>StyleShop
+                    </h4>
+                    <p>Your one-stop destination for premium fashion, electronics, and lifestyle products. Quality and customer satisfaction guaranteed.</p>
+                    <div class="mt-3">
+                        <a href="#" class="text-white me-3"><i class="bi bi-facebook fs-5"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-twitter fs-5"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-instagram fs-5"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-pinterest fs-5"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5 class="mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#home" class="footer-link">Home</a></li>
+                        <li class="mb-2"><a href="#products" class="footer-link">Products</a></li>
+                        <li class="mb-2"><a href="#categories" class="footer-link">Categories</a></li>
+                        <li class="mb-2"><a href="#features" class="footer-link">Why Us</a></li>
+                        <li><a href="#contact" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="mb-3">Customer Service</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#faq" class="footer-link">FAQ</a></li>
+                        <li class="mb-2"><a href="#shipping" class="footer-link">Shipping Policy</a></li>
+                        <li class="mb-2"><a href="#returns" class="footer-link">Returns & Refunds</a></li>
+                        <li class="mb-2"><a href="#privacy" class="footer-link">Privacy Policy</a></li>
+                        <li><a href="#terms" class="footer-link">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5 class="mb-3">Contact Info</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="bi bi-geo-alt me-2"></i>123 Commerce Street, New York, NY 10001</li>
+                        <li class="mb-2"><i class="bi bi-telephone me-2"></i>+1 (555) 123-4567</li>
+                        <li class="mb-2"><i class="bi bi-envelope me-2"></i>support@styleshop.com</li>
+                        <li><i class="bi bi-clock me-2"></i>Mon-Fri: 9AM-6PM EST</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="bg-light">
+            <div class="row pt-3">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2023 StyleShop. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">Made with <i class="bi bi-heart-fill text-danger"></i> and Bootstrap 5</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS (for navbar toggle only) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
